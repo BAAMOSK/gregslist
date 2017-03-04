@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    background-color: lightgray;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+nav .logo {
+    padding: 6px;
+    float: left;
+    font-size: 2em;
+    display: inline-block;
+}
+
+nav ul li{
+    list-style: none;    
+    float: right;
+    margin-right: 7px;
+    margin-top: -8px;
+    font-size: 20pt;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+}
+
+.position {
+    position: relative;
+}
+
+section {
+    margin-top: 50px;
+}
